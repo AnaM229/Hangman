@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Hangman</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1>Hangman</h1>
+        <div><img src="images/0.jpg" alt="" id="hang"></div>
+        <div>
+            <h2 id="word"></h2>
+            <form id="form">
+                <label for="user">Enter a letter: </label>
+                <input type="text" name="user" id="user">
+                <input type="button" value="Try" id="btn" onclick="check()" />
+            </form>
+        </div>
+        <script src="app.js"></script>
+
+    </body>
+</html>
